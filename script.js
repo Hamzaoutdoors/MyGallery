@@ -15,7 +15,7 @@ prevBtn.addEventListener('click', changePrevImg);
 
 
 function changeNextImg(){
-    container.animate([{opacity:'0.1'},{opacity:'1.0'}], {duration:600, fill:'forwards'});
+    container.animate([{opacity:'0.1'},{opacity:'1.0'}], {duration:800, fill:'forwards'});
 if(count === 14){
     count = -1;
 }
